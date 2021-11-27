@@ -1,0 +1,20 @@
+
+.footer
+{
+    display: block;
+    background-color: $c-black1;
+    //margin-top: 3em;
+    width: 100%;
+    @include xl 
+    {
+        
+    }
+    & small{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 0.7em;
+        padding: 1em 0;
+    }
+}
